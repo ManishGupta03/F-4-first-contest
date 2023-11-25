@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+.calculatorContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 5px;
+  padding: 30px;
+  gap: 25px;
+  margin-top: 20vh;
+  box-shadow: 15px -15px 60px 5px rgba(34, 35,218, 0.6),
+  -15px 15px 60px 5px rgba(220,55,120,0.6);
+}
+input{
+  width: 90%;
+  height: 24px;
+  padding: 5px 12px;
+  font-size: medium;
+}
+.buttonContainer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 15px;
+}
+button{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 12px 14px;
+    font-size: medium;
+    border-radius: 5px;
+    width: 40px;
+
+}
+.calculatorContainer p{
+  font-size: medium !important;
+  margin: 5px;
+}
+.errorMessageContainer{
+  color: red;
+}
+.successMessageContainer{
+  color: green;
+}
